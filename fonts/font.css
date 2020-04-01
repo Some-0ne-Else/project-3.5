@@ -1,11 +1,18 @@
 @font-face {
-  font-family: "";
-  src: url("./") format("woff2"), url("./") format("woff");
+  font-family: "Poppins";
+  src: url("./Poppins-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "";
-  src: url("./") format("woff2"), url("./") format("woff");
+  font-family: "Poppins";
+  src: url("./Poppins-Bold.ttf") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+

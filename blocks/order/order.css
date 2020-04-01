@@ -1,0 +1,16 @@
+@import url("../order/__title/order__title.css");
+@import url("../order/__subtitle/order__subtitle.css");
+@import url("../order/__button/order__button.css");
+@import url("../order/__content/order__content.css");
+@import url("../order/__buttons-wrapper/order__buttons-wrapper.css");
+@import url("../order/__text-wrapper/order__text-wrapper.css");
+
+
+
+.order{
+  max-width: 1440px;
+  min-height: 240px;
+  background-color: #F7941E;
+  margin:0 auto 100px;
+
+}

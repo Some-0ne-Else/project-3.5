@@ -1,0 +1,17 @@
+.info-cards__content-subtitle {
+  max-width: 454px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto 64px;
+}
+
+
+@media screen and (max-width: 425px) {
+  .info-cards__content-subtitle {
+    margin: 0 15px 32px;
+  }
+}
+

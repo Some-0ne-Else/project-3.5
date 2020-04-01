@@ -1,0 +1,21 @@
+.order__title {
+  font-family: Poppins;
+  font-size: 32px;
+  line-height: 45px;
+  color: #000000;
+  font-weight: bold;
+  margin: 81px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .order__title {
+    font-size: 21px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .order__title {
+    margin: 24px 0 0;
+  }
+}

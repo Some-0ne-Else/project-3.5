@@ -1,0 +1,9 @@
+.info-cards__content-title {
+  max-width: 422px;
+  font-family: Poppins;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin: 96px auto 23px;
+}
