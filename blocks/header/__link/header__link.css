@@ -1,0 +1,29 @@
+
+.header__link {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-right: 31px;
+    transition: all .3s ease-in;
+}
+
+.header__link:last-of-type {
+    margin-right: 0;
+}
+
+.header__link:hover {
+    opacity: 0.6;
+    transition: all .3s ease-in;
+}
+
+
+@media screen and (max-width: 605px) {
+    .header__link {
+        margin-right: 0;
+        margin-bottom: 16px;
+        
+
+    }
+}
