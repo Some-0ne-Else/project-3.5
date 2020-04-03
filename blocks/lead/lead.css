@@ -1,8 +1,8 @@
 @import url(./__containter-one/lead__container-one.css);
 @import url(./__content-title/lead__content-title.css);
 @import url(./__content-paragraph/lead__content-paragraph.css);
-@import url(./__item/lead__item.css);
-@import url(./__item/_transparent/lead__item_transparent.css);
+@import url(./__button/lead__button.css);
+@import url(./__button/_transparent/lead__button_transparent.css);
 @import url(./__photo/lead__photo.css);
 @import url(./__photo/_grid/lead__photo_grid.css);
 @import url(./__container-two/lead__container-two.css);
@@ -11,9 +11,9 @@
 .lead {
     display: grid;
     margin: 35px auto 0;
-    grid-gap: 0;
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     "container-1  photo-1"
     "photo-2 container-2";

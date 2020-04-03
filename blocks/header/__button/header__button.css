@@ -1,6 +1,6 @@
 
-.header__item {
-    background-image: url(../../../images/Button_gift_finder.png);
+.header__button {
+    background-image: url(../../../images/button_gift_finder.svg);
     width: 150px;
     height: 44px;
     margin-right: 34px;
@@ -10,21 +10,21 @@
 
 }
 
-.header__item:hover {
+.header__button:hover {
     background-color: black;
     opacity: 0.9;
     transition: all .3s ease-in;
 }
 
 @media screen and (max-width: 1024px) {
-    .header__item {
+    .header__button {
         margin-right: 17px;
     }
 }
 
 
 @media screen and (max-width: 605px) {
-    .header__item {
+    .header__button {
         margin-right: 0;
     }
 }

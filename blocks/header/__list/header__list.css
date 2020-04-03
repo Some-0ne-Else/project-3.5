@@ -1,0 +1,17 @@
+.header__list {
+    margin-right: 31px;
+}
+
+
+.header__list:last-of-type {
+    margin-right: 0;
+}
+
+
+@media screen and (max-width: 605px) {
+    .header__list {
+        margin-right: 0;
+        margin-bottom: 16px;
+
+    }
+}

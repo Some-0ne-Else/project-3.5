@@ -15,3 +15,10 @@
         line-height: 44px;
     }
 }
+
+
+@media screen and (max-width: 605px) {
+    .lead__content-title {
+        max-width: 400px;
+    }
+}

@@ -19,9 +19,7 @@
 
 @media screen and (max-width: 1024px) {
     .lead__container-two {
-        margin-top: 25px;
-        margin-right: 25px; 
-        margin-left: ;
+        margin: 25px 25px auto 45px;
     }
 }
 
