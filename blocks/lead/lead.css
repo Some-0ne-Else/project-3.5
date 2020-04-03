@@ -1,0 +1,36 @@
+@import url(./__containter-one/lead__container-one.css);
+@import url(./__content-title/lead__content-title.css);
+@import url(./__content-paragraph/lead__content-paragraph.css);
+@import url(./__item/lead__item.css);
+@import url(./__item/_transparent/lead__item_transparent.css);
+@import url(./__photo/lead__photo.css);
+@import url(./__photo/_grid/lead__photo_grid.css);
+@import url(./__container-two/lead__container-two.css);
+@import url(./__content-subtitle/lead__content-subtitle.css);
+
+.lead {
+    display: grid;
+    margin: 35px auto 0;
+    grid-gap: 0;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-areas: 
+    "container-1  photo-1"
+    "photo-2 container-2";
+    background-color:  #F1F1F2;
+    max-width: 1440px;
+}
+
+
+
+@media screen and (max-width: 605px) {
+    .lead {
+        grid-template-columns: repeat(1, minmax(min-content, max-content));
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        grid-template-areas: 
+        "container-1"
+        "photo-1"
+        "container-2"
+        "photo-2";
+    }
+}

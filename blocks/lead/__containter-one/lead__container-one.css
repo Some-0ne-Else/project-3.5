@@ -1,0 +1,33 @@
+
+.lead__container-one {
+    grid-area: container-1;
+    max-width: 433px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 154px;
+    margin-left: 162px; 
+}
+
+
+@media screen and (max-width: 1280px) {
+    .lead__container-one {
+        margin-top: 95px;
+        margin-left: 75px; 
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .lead__container-one {
+        margin-top: 25px;
+        margin-left: 25px; 
+    }
+}
+
+
+@media screen and (max-width: 605px) {
+    .lead__container-one {
+        margin: 25px 30px 0;
+    }
+}
