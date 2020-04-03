@@ -1,0 +1,23 @@
+.comments__card {
+  background-color: white;
+  transition: ease 0.5s;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+  
+@media screen and (max-width: 1210px) {
+  .comments__card {
+    padding: 36px;
+  }
+}
+  
+.comments__card:hover{
+  box-shadow: 10px 10px 10px #f6f6f6;
+  transform: scale(1.01);
+}
+  

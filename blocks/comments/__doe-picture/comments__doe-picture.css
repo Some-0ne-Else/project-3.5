@@ -1,0 +1,9 @@
+.comments__doe-picture {
+  max-width: 400px;
+}
+  
+@media screen and (max-width: 375px) {
+  .comments__doe-picture {
+    max-width: 320px;
+  }
+}
