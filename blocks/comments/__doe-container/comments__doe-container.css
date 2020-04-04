@@ -6,7 +6,7 @@
   flex-direction: row;
 }
   
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 880px) {
   .comments__doe-container {
     flex-direction: column;
     max-width: 400px;
@@ -17,5 +17,5 @@
   .comments__doe-container {
     flex-direction: column;
     max-width: 320px;
-  }
+  } 
 }

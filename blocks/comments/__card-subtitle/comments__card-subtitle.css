@@ -11,9 +11,3 @@
   } 
 }
   
-@media screen and (max-width: 400px) {
-  .comments__card-subtitle {
-    font-size: 14px;
-    line-height: 18px;
-  }
-}

@@ -12,13 +12,13 @@
   
 @media screen and (max-width: 1130px) {
   .comments__card {
-    padding: 40px; 
+    padding: 32px; 
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 880px) {
   .comments__card {
-    padding: 36px; 
+    padding: 20px; 
   }
 }
   
