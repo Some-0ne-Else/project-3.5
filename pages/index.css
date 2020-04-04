@@ -3,4 +3,6 @@
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/lead/lead.css");
+@import url("../blocks/info-cards/info-cards.css");
+@import url("../blocks/order/order.css");
 @import url("../blocks/footer/footer.css");

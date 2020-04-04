@@ -1,0 +1,33 @@
+@import url("../order/__button/_color/_black/order__button_color_black.css");
+@import url("../order/__button/_color/_orange/order__button_color_orange.css");
+.order__button {
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  text-decoration: none;
+  transition: transform 0.6s ease;
+}
+
+.order__button:hover {
+  transform: scale(1.01);
+}
+
+
+@media screen and (max-width: 900px) {
+  .order__button {
+    font-size: 12px;
+    line-height: 16px;
+    width: 134px;
+    height: 34px;
+  }
+}
