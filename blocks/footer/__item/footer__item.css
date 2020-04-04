@@ -3,7 +3,5 @@
 }
   
 @media screen and (max-width: 900px) {
-  .footer__item:nth-of-type(3) {
-    order: -1;
-  }
+  
 }

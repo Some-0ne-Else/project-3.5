@@ -10,9 +10,15 @@
   text-align: left;
 }
   
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1130px) {
   .comments__card {
-    padding: 36px;
+    padding: 40px; 
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .comments__card {
+    padding: 36px; 
   }
 }
   

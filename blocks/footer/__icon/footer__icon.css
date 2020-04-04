@@ -6,3 +6,9 @@
 .footer__icon:hover {
    opacity: 0.65;
 }
+
+@media screen and (max-width: 375px) {
+  .footer__icon {
+    max-width: 35px;
+  }
+}
