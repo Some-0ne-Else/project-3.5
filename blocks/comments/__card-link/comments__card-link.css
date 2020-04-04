@@ -1,0 +1,15 @@
+.comments__card-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  transition: opacity 1s ease;
+  text-decoration: none;
+}
+
+.comments__card-link:hover {
+  opacity: 0.65;
+}

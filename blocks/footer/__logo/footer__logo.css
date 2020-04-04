@@ -1,0 +1,28 @@
+.footer__logo {
+  margin: 0 61px;
+  width: 41px;
+}
+  
+@media screen and (max-width: 900px) {
+  .footer__logo {
+    margin: 0 40px;
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .footer__logo {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__logo {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__logo {
+    width: 31px;
+  }
+}
