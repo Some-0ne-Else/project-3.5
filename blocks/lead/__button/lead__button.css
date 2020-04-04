@@ -1,0 +1,36 @@
+
+.lead__button {
+    background-image: url(../../../images/button_gift_now.svg);
+    width: 200px;
+    height: 60px;
+    margin-right: 34px;
+    opacity: 1;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    margin: 0;
+
+}
+
+.lead__button:hover {
+    opacity: 0.5;
+    transition: all .3s ease-in;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .lead__button {
+        margin-bottom: 10px;
+        width: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media screen and (max-width: 605px) {
+    .lead__button {
+        width: 200px;
+        background-size: unset;
+        background-repeat: no-repeat;
+    }
+}
