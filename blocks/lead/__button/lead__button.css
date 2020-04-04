@@ -29,6 +29,7 @@
 @media screen and (max-width: 605px) {
     .lead__button {
         width: 200px;
+        height: 60px;
         background-size: unset;
         background-repeat: no-repeat;
     }
