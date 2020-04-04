@@ -1,3 +1,22 @@
-.header{
+@import url(./__nav/header__nav.css);
+@import url(./__list/header__list.css);
+@import url(./__links/header__links.css);
+@import url(./__logo/header__logo.css);
+@import url(./__link/header__link.css);
+@import url(./__button/header__button.css);
 
+.header{
+    margin: 37px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+
+@media screen and (max-width: 605px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
 }

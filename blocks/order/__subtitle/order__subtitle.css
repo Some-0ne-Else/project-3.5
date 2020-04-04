@@ -1,0 +1,16 @@
+.order__subtitle{
+font-family: Poppins;
+font-size: 32px;
+line-height: 45px;
+color: #000000;
+font-weight: normal;
+margin: 0;
+}
+
+
+@media screen and (max-width: 900px) {
+  .order__subtitle {
+    font-size: 21px;
+    line-height: 30px;
+  }
+}

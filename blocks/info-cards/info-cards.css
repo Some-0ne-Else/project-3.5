@@ -1,0 +1,13 @@
+@import url("../info-cards/__content-title/info-cards__content-title.css");
+@import url("../info-cards/__content-subtitle/info-cards__content-subtitle.css");
+@import url("../info-cards/__container/info-cards__container.css");
+@import url("../info-cards/__card/info-cards__card.css");
+@import url("../info-cards/__image/info-cards__image.css");
+@import url("../info-cards/__card-title/info-cards__card-title.css");
+@import url("../info-cards/__card-link/info-cards__card-link.css");
+
+.info-cards{
+  background-color: #FFFFFF;
+  max-width: 1440px;
+  margin: 100px auto 100px;
+}

@@ -1,0 +1,11 @@
+
+
+.lead__button_transparent {
+    background-image: url(../../../../images/button_learn_more.svg);
+}
+
+
+.lead__button_transparent:hover {
+    background-color: black;
+    opacity: 0.9;
+}
