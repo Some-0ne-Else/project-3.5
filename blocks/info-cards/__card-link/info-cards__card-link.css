@@ -9,9 +9,10 @@
   text-decoration: none;
   margin: 0 0 24px 24px;
 }
-
-.info-cards__card-link:hover {
-  opacity: 0.65;
+@media screen and (pointer: fine) {
+  .info-cards__card-link:hover {
+    opacity: 0.65;
+  }
 }
 
 @media screen and (max-width: 425px) {

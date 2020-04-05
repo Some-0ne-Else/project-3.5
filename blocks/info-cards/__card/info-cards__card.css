@@ -6,9 +6,11 @@
   grid-template-rows: 270px 166px;
 */
 }
-.info-cards__card:hover{
-  background-color: #FFFFFF;
-  box-shadow: 10px 10px 10px #f6f6f6;
-  transform: scale(1.01);
+@media screen and (pointer: fine)  {
+  .info-cards__card:hover{
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 10px #f6f6f6;
+    transform: scale(1.01);
+  }
 
 }

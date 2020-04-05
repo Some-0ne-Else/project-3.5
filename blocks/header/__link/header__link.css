@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (max-width: 605px) {
+@media screen and (pointer: fine) {
     .header__link {
         font-size: 22px;
         line-height: 26px;

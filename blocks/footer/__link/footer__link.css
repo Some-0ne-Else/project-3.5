@@ -6,10 +6,12 @@
   font-weight: bold;
   transition: opacity 1s ease;
 }
- 
-.footer__link:hover {
-  opacity: 0.65;
-}
+@media screen and (pointer: fine) {
+  .footer__link:hover {
+    opacity: 0.65;
+  }
+} 
+
 
 @media screen and (max-width: 375px) {
   .footer__link {

@@ -21,9 +21,12 @@
     padding: 20px; 
   }
 }
-  
-.comments__card:hover{
-  box-shadow: 10px 10px 10px #f6f6f6;
-  transform: scale(1.01);
+
+@media screen and (pointer: fine) {
+  .comments__card:hover{
+    box-shadow: 10px 10px 10px #f6f6f6;
+    transform: scale(1.01);
+  }
 }
+
   

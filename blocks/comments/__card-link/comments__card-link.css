@@ -9,7 +9,8 @@
   transition: opacity 1s ease;
   text-decoration: none;
 }
-
-.comments__card-link:hover {
-  opacity: 0.65;
+@media screen and (pointer: fine) {
+  .comments__card-link:hover {
+    opacity: 0.65;
+  }
 }
