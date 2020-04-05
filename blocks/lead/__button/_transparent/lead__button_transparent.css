@@ -4,8 +4,10 @@
     background-image: url(../../../../images/button_learn_more.svg);
 }
 
-
-.lead__button_transparent:hover {
-    background-color: black;
-    opacity: 0.9;
+@media screen and (min-width: 900px) {
+    .lead__button_transparent:hover {
+        background-color: black;
+        opacity: 0.9;
+    }
+    
 }
