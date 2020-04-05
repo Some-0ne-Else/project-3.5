@@ -11,9 +11,11 @@
 
 }
 
-.lead__button:hover {
-    opacity: 0.5;
-    transition: all .3s ease-in;
+@media screen and (min-width: 900px) { 
+    .lead__button:hover {
+        opacity: 0.5;
+        transition: all .3s ease-in;
+    }
 }
 
 
@@ -25,6 +27,7 @@
         background-size: contain;
         background-repeat: no-repeat;
     }
+}
 
 @media screen and (max-width: 605px) {
     .lead__button {

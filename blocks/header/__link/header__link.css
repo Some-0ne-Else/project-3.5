@@ -8,9 +8,13 @@
     transition: all .3s ease-in;
 }
 
-.header__link:hover {
-    opacity: 0.6;
-    transition: all .3s ease-in;
+
+@media screen and (min-width: 900px) {
+    .header__link:hover {
+        opacity: 0.6;
+        transition: all .3s ease-in;
+    }
+    
 }
 
 

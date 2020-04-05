@@ -10,10 +10,12 @@
 
 }
 
-.header__button:hover {
-    background-color: black;
-    opacity: 0.9;
-    transition: all .3s ease-in;
+@media screen and (min-width: 900px) {
+    .header__button:hover {
+        background-color: black;
+        opacity: 0.9;
+        transition: all .3s ease-in;
+    }    
 }
 
 @media screen and (max-width: 1024px) {
