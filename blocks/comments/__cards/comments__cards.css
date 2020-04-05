@@ -1,0 +1,26 @@
+.comments__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 290px;
+  column-gap: 30px;
+  margin: 0 auto;
+  max-width: 81.25%;
+  margin-top: 40px;
+  padding-left: 0;
+  margin-bottom: 80px;
+}
+  
+@media screen and (max-width: 880px) {
+  .comments__cards {
+    max-width: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 260px 260px;
+    row-gap: 16px;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .comments__cards {
+    margin-bottom: 40px;
+  }
+}

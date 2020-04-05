@@ -1,0 +1,22 @@
+.order__content {
+  margin: auto;
+  max-width: 970px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .order__content {
+    margin: 0 30px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .order__content {
+   flex-direction: column;
+   justify-content: flex-start;
+   max-width: 284px;
+    margin: auto;
+  }
+}
