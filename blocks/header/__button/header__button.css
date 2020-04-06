@@ -26,6 +26,17 @@
 }
 
 
+@media screen and (max-width: 605px) {
+    .header__button {
+        width: 113px;
+        height: 33px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-self: center;
+    }
+}
+
+
 @media screen and (max-width: 500px) {
     .header__button {
         margin-right: 0;

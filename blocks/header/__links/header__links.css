@@ -6,7 +6,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
     .header__links {
         flex-direction: column;
 
