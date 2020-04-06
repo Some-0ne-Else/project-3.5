@@ -12,8 +12,9 @@
 
 @media screen and (pointer: fine) {
     .header__button:hover {
-        background-color: black;
-        opacity: 0.9;
+        /* background-color: black; */
+        transform: scale(1.01);
+        opacity: 0.7;
         transition: all .3s ease-in;
     }    
 }
@@ -25,7 +26,7 @@
 }
 
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 500px) {
     .header__button {
         margin-right: 0;
     }
