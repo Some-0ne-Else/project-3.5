@@ -8,6 +8,7 @@
   line-height: 20px;
   transition: opacity 1s ease;
   text-decoration: none;
+  align-self: baseline;
 }
 @media screen and (pointer: fine) {
   .comments__card-link:hover {
