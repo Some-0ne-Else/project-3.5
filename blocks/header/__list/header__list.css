@@ -8,7 +8,14 @@
 }
 
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 768px) {
+    .header__list {
+        margin-right: 15px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
     .header__list {
         margin-right: 0;
         margin-bottom: 16px;
